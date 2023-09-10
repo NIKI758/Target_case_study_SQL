@@ -1,3 +1,4 @@
+
 # Insights:
 
 1. **Regional Disparity:** The state of São Paulo (SP) stands out significantly with a notably higher number of orders compared to other states. This highlights the opportunity to expand and improve business operations in other regions.
