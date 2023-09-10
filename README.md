@@ -1,54 +1,69 @@
-Business Case Study: Target Brazil - Unveiling Insights through SQL Data Analysis
-Introduction
-Target, a globally recognized retail giant, is celebrated for its commitment to value, innovation, and exceptional guest experiences. This case study centers on Target's operations in Brazil, offering a detailed exploration of a dataset encompassing 100,000 orders placed between 2016 and 2018. This rich dataset spans multiple dimensions, including order status, pricing strategies, payment and shipping efficiency, customer demographics, product attributes, and customer satisfaction.
 
-Dataset Overview
-The dataset comprises eight distinct CSV files, each providing specific insights:
+
+Business Case Study: Target Brazil - SQL Data Analysis
+Introduction
+Target, a globally renowned retail brand, is celebrated for its commitment to delivering exceptional value, innovation, and an unmatched guest experience. This case study focuses on Target's operations in Brazil and offers insights into 100,000 orders placed between 2016 and 2018. The dataset encompasses a wide range of dimensions, including order status, pricing strategies, payment and shipping efficiency, customer demographics, product attributes, and customer satisfaction levels.
+
+The Dataset
+The dataset consists of eight CSV files, each providing specific information:
 
 customers.csv: Customer data, including unique IDs, zip codes, and locations.
 sellers.csv: Seller details, including unique IDs, zip codes, and locations.
 order_items.csv: Order-related information, including order and product IDs, prices, and shipping details.
-geolocation.csv: Geographic data, encompassing zip codes, latitude, longitude, and city names.
-payments.csv: Payment-related details, including payment types, installments, and amounts.
-orders.csv: Comprehensive order data, featuring order status, timestamps, and delivery specifics.
-reviews.csv: Customer reviews, complete with review scores, comments, and timestamps.
-products.csv: Product attributes, such as category names, descriptions, and physical dimensions.
+geolocation.csv: Geographical information, including zip codes, latitude, longitude, and city names.
+payments.csv: Payment-related data, including payment types, installments, and amounts.
+orders.csv: Order details, including order status, timestamps, and delivery information.
+reviews.csv: Customer reviews, including review scores, comments, and timestamps.
+products.csv: Product attributes, including category names, descriptions, and physical dimensions.
 Problem Statement
-As a data analyst/scientist at Target, your mission is to extract invaluable insights from this dataset and provide actionable recommendations. Your objectives encompass:
+As a data analyst/scientist at Target, your mission is to analyze this dataset to extract valuable insights and provide actionable recommendations. Your objectives include:
 
 Data Exploration
+Import the dataset and conduct exploratory analysis to understand its structure and characteristics, including data types in the "customers" table.
 
-Importing the dataset and conducting exploratory analysis to understand its structure, including data types in the "customers" table.
-Determining the timeframe of order placement.
-Counting the cities and states of customers who ordered during the specified period.
+Determine the timeframe during which orders were placed.
+
+Count the cities and states of customers who ordered during the specified period.
+
 In-Depth Exploration
+Identify any trends in the number of orders placed over the past years.
 
-Identifying trends in the number of orders placed over the years.
-Analyzing monthly seasonality in order placements.
-Determining the preferred time of day for Brazilian customers to place orders.
+Analyze monthly seasonality in terms of the number of orders placed.
+
+Determine the preferred time of day for Brazilian customers to place orders (dawn, morning, afternoon, or night).
+
 Evolution of E-commerce Orders
+Examine the month-on-month number of orders placed in each state.
 
-Examining the month-on-month number of orders in each state.
-Exploring the distribution of customers across states.
+Explore the distribution of customers across all states.
+
 Impact on Economy
+Analyze the financial aspect of e-commerce, including order prices, freight costs, and more.
 
-Analyzing the financial aspect, including order prices and freight costs.
-Calculating the percentage increase in order costs from 2017 to 2018.
-Calculating total and average order prices and freight costs for each state.
+Calculate the percentage increase in order costs from 2017 to 2018 (considering months from Jan to Aug).
+
+Calculate the total and average order prices for each state.
+
+Calculate the total and average order freight costs for each state.
+
 Sales, Freight, and Delivery Analysis
+Calculate the number of days taken to deliver each order from the purchase date as delivery time.
 
-Calculating the delivery time for each order.
-Determining the difference between estimated and actual delivery dates.
-Identifying states with the highest and lowest average freight values and delivery times.
-Recognizing states where delivery significantly outpaces estimated times.
+Calculate the difference (in days) between the estimated and actual delivery dates of orders.
+
+Identify the top 5 states with the highest and lowest average freight values.
+
+Identify the top 5 states with the highest and lowest average delivery times.
+
+Determine the top 5 states where order delivery significantly outpaces the estimated delivery date.
+
 Payment Analysis
+Find the month-on-month number of orders placed using different payment types.
 
-Examining month-on-month orders placed using different payment types.
-Analyzing the distribution of orders based on payment installments.
+Analyze the distribution of orders based on the payment installments paid.
+
 Conclusion
-Through comprehensive SQL data analysis, this study aims to unearth critical insights into Target's Brazilian operations. These insights will serve as the foundation for strategic decisions, optimizing operations, and enhancing the overall customer experience. By leveraging SQL queries and data analysis, Target is poised for continued success in the dynamic Brazilian market.
-
-
+Through comprehensive SQL data analysis, this study aims to uncover critical insights into Target's operations in Brazil. These insights will guide strategic decisions, enhance operational efficiency, and elevate the overall customer experience. SQL queries and data analysis play a pivotal role in translating data into actionable recommendations for Target's continued success in the Brazilian market.
 
 
 ## Creator
